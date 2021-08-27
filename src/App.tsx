@@ -1,15 +1,13 @@
-import { ChakraProvider } from "@chakra-ui/react";
+import { Box, ChakraProvider, Flex, Heading } from "@chakra-ui/react";
 import { BrowserRouter, Link } from "react-router-dom";
 import "./styles.css";
 import { Router } from "./components/router/Router";
+import theme from "./theme/theme";
 
 export default function App() {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <BrowserRouter>
-        <Link to="/home">Home</Link>
-        <br />
-        <Link to="/setting">Setting</Link>
         <br />
         <br />
         <h1>Hello,World!!</h1>
