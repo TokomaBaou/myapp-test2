@@ -10,7 +10,7 @@ export default function App() {
       <BrowserRouter>
         <br />
         <br />
-        <h1>Hello,World!!</h1>
+        <h1>Hello</h1>
         <h2>Enjoy</h2>
 
         <Router />
